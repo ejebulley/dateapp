@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Date Connection App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Get to Know Each Other</h1>
+
+    <div id="nameSection">
+      <input type="text" id="name1" placeholder="Enter your name" />
+      <input type="text" id="name2" placeholder="Enter your date's name" />
+      <button onclick="startApp()">Start</button>
+    </div>
+
+    <div id="appSection" class="hidden">
+      <p class="names" id="greeting"></p>
+      <div class="question-box" id="question">Click next to load a question...</div>
+      <button onclick="nextQuestion()">Next Question</button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
